@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+
+.comment-card{
+  background-color: rgb(213, 213, 213);
+  margin-top:10px;
+  width:350px;
+  box-shadow: 0  0 8px rgb(0,0,0.2);
+  border-radius: 8px;
+  padding: 8px;
+}
+.txt{
+  font-size: 20px;
+  font-weight: bold;
+}
+.reply{
+  color: blueviolet;
+  font-weight: bold;
+  cursor: pointer;
+}
+#submit{
+  width:60px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: aquamarine;
+  margin: 5px;
+}
+input{
+  margin: 5px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.all-comments:not(:first-child){
+  margin-left: 4rem;
+}
